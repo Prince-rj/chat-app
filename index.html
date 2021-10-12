@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>realtime socket.io webapp</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="body">
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="">
+                <span>Hi CHAT</span>
+            </div>
+            <ul>
+                <li> <a href=""> CHAT</a></li>
+                <li> <a href=""> ABOUT</a></li>
+        </ul>
+        <form id="sel" action="">
+
+            <input placeholder="topic" type="text" id="tpc">
+            <input type="submit" name="" id="">
+        </form>
+    </nav>
+    <div class="container">
+        <!-- <div class="message left">Harry bro how are you</div>
+        <div class="message right"></div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="sendcontainer">
+            <input type="text" name="messageinp" id="messageinp">
+            <button class="btn" type="submit"><img class="img" src="logo.png" alt=""><span id="send">Send</span></button>
+        </form>
+    </div>
+</div>
+</body>
+<script src="http://localhost:8000/socket.io/socket.io.js"></script>
+<script src="js/client.js"></script>
+</html>
